@@ -1,0 +1,57 @@
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@bg: #000;
+@font: #7fffd4;
+@altBg: #817c7c;
+@altFont: #e7e2a5;
+
+body {
+    .flexcolumn();
+    background-color: @bg;
+    color: @font;
+
+    nav {
+        .flexrow();
+        width: 95%;
+        justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+            color: @altFont;
+        }
+    }
+    main {
+        .flexcolumn();
+
+        .parks {
+            .flexrow();
+
+            h3 {
+                background-color: @altBg;
+                color: @altFont;
+                margin: 1em;
+                padding: 1em
+            }
+        }
+        .animals {
+            .flexcolumn();
+
+            h3 {
+                background-color: @altBg;
+                color: @altFont;
+                margin: 1em;
+                padding: 1em
+            }
+        }
+    }
+}

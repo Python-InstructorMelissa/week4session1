@@ -8,23 +8,15 @@
     <title>Our Flask HTML doc</title>
 </head>
 <body>
-    <h1>What's cooking class?</h1>
+    <h1>We are learning python and creating routes</h1>
     <nav>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/welcome">Welcome</a>
     </nav>
     <main>
-        <div class="parks">
-            {% for p in parks %}
-            <h3>Park name: {{p.name}}</h3>
-            {% endfor %}
-        </div>
-        {% for a in animals %}
-            <div class="animals">
-                <h3>Species: {{a.species}}</h3>
-                <h3>Name: {{a.name}}</h3>
-            </div>
+        {% for p in parks %}
+        <h3>{{p.name}}</h3>
         {% endfor %}
     </main>
 </body>

@@ -11,14 +11,14 @@
 3. cd IntroFlask
 
 ## Install flask
-1. pipenv flask
+1. pipenv install flask
 2. this should create 2 files pipfile and pipfile.lock
 
 
 # Users who get any errors thus far
-1. try python -m pipenv flask
+1. try python -m pipenv install flask
 if that doesn't work
-2. open command prompt and try pipenv flask or python -m pipenv flask
+2. open command prompt and try pipenv install flask or python -m pipenv install flask
 
 # Windows mainly users
 You may not get errors till this next step.  I will demonstrate the error but it might be the bash vs command prompt
@@ -28,3 +28,7 @@ You may not get errors till this next step.  I will demonstrate the error but it
 
 ## Exit the environment
 1. exit
+
+
+# Links to keep in mind
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
