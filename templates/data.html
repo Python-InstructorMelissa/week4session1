@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Week 4 Session 1</title>
+</head>
+<body>
+    <header>
+        <h1>Introduction to Flask</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/html/">html</a>
+            <a href="/data/">Data</a>
+        </nav>
+    </header>
+    <main>
+        {% for u in user %}
+            <h2>Username: {{u.username}}</h2>
+            <h3>Name: {{u.firstName}} {{u.lastName}}</h3>
+            <a href="/user/{{u.id}}/view/">View User</a>
+        {% endfor %}
+        {% for u in user %}
+            {% if u.id == 5 %}
+                <h2>Username for user 1: {{u.username}}</h2>
+            {% endif %}
+        {% endfor %}
+        {% for b in book %}
+            {% if b.user_id == 1 %}
+                <h4>User 1's Book Titles: {{b.title}}</h4>
+            {% endif %}
+            {% if b.author == 'Dr Seuss' %}
+                <h4>Dr Seuss's Books: {{b.title}}</h4>
+            {% endif %}
+        {% endfor %}
+    </main>
+    <footer>©2021</footer>
+</body>
+</html>
