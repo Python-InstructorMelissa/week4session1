@@ -11,12 +11,12 @@
 3. cd IntroFlask
 
 ## Install flask
-1. pipenv flask
+1. pipenv install flask
 2. this should create 2 files pipfile and pipfile.lock
 
 
 # Users who get any errors thus far
-1. try python -m pipenv flask
+1. try python -m pipenv install flask
 if that doesn't work
 2. open command prompt and try pipenv flask or python -m pipenv flask
 
