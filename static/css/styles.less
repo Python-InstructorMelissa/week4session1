@@ -1,0 +1,42 @@
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    .flexcolumn();
+    
+    header {
+        .flexcolumn();
+
+        nav {
+            .flexrow();
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+    main {
+        .flexrow();
+        flex-wrap: wrap;
+
+        h3 {
+            border: 3px groove purple;
+            padding: 2em;
+        }
+        img {
+            max-width: 100px;
+        }
+    }
+}

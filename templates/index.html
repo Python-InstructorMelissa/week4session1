@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 4 Session 1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Flask App</title>
 </head>
 <body>
     <header>
-        <h1>Introduction to Flask</h1>
-        <nav></nav>
+        <h1>Welcome to our Flask App</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/welcome/">Welcome</a>
+        </nav>
     </header>
-    <main></main>
-    <footer>©</footer>
+    <main>
+        {% for d in datas %}
+            <h3>{{d.name}}</h3>
+            <img src="{{d.img}}" alt="{{d.name}}">
+        {% endfor %}
+    </main>
+    <footer>
+        <p>Made for Feb cohort</p>
+    </footer>
 </body>
 </html>
