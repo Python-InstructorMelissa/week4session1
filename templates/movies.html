@@ -9,13 +9,17 @@
 </head>
 <body>
     <header>
-        <h1>Movie and Images Flask App</h1>
+        <h1>Movie Flask App</h1>
         <nav>
             {% block menu %} {% include 'menu.html' %} {% endblock menu %}
         </nav>
     </header>
     <main>
-
+        <ul>
+            {% for m in theMovies %}
+                <li>{{m.fullTitle}} <img src="{{m.image}}" alt="{{m.fullTitle}}"></li>
+            {% endfor %}
+        </ul>
     </main>
     <footer>
 

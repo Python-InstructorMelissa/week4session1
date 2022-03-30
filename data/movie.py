@@ -1,0 +1,110 @@
+movies =  [
+    {
+        'id': "tt1877830",
+        'rank': "1",
+        'rankUpDown': "0",
+        'title': "The Batman",
+        'fullTitle': "The Batman (2022)",
+        'year': "2022",
+        'image': "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_UX128_CR0,3,128,176_AL_.jpg",
+        'crew': "Matt Reeves (dir.), Robert Pattinson, Zoë Kravitz",
+        'imDbRating': "8.3",
+        'imDbRatingCount': "289993"
+    },
+    {
+        'id': "tt2180339",
+        'rank': "2",
+        'rankUpDown': "+5",
+        'title': "Deep Water",
+        'fullTitle': "Deep Water (2022)",
+        'year': "2022",
+        'image': "https://m.media-amazon.com/images/M/MV5BNTE1M2NjNDgtYjQ2Ny00YTMzLWJiYWQtMTdmM2Q2YjA1MDg1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX128_CR0,3,128,176_AL_.jpg",
+        'crew': "Adrian Lyne (dir.), Ben Affleck, Ana de Armas",
+        'imDbRating': "5.4",
+        'imDbRatingCount': "20028"
+    },
+    {
+        'id': "tt13560574",
+        'rank': "3",
+        'rankUpDown': "+3",
+        'title': "X",
+        'fullTitle': "X (2022)",
+        'year': "2022",
+        'image': "https://m.media-amazon.com/images/M/MV5BMTJiMmE5YWItOWZjYS00YTg0LWE0MTYtMzg2ZTY4YjNkNDEzXkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_UY176_CR6,0,128,176_AL_.jpg",
+        'crew': "Ti West (dir.), Mia Goth, Jenna Ortega",
+        'imDbRating': "7.4",
+        'imDbRatingCount': "7628"
+    },
+    {
+        'id': "tt2463208",
+        'rank': "4",
+        'rankUpDown': "-2",
+        'title': "The Adam Project",
+        'fullTitle': "The Adam Project (2022)",
+        'year': "2022",
+        'image': "https://m.media-amazon.com/images/M/MV5BOWM0YWMwMDQtMjE5NS00ZTIwLWE1NWEtODViMWZjMWI2OTU3XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX128_CR0,3,128,176_AL_.jpg",
+        'crew': "Shawn Levy (dir.), Ryan Reynolds, Walker Scobell",
+        'imDbRating': "6.7",
+        'imDbRatingCount': "105610"
+    },
+    {
+        'id': "tt8097030",
+        'rank': "5",
+        'rankUpDown': "-2",
+        'title': "Turning Red",
+        'fullTitle': "Turning Red (2022)",
+        'year': "2022",
+        'image': "https://m.media-amazon.com/images/M/MV5BNjY0MGEzZmQtZWMxNi00MWVhLWI4NWEtYjQ0MDkyYTJhMDU0XkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_UX128_CR0,3,128,176_AL_.jpg",
+        'crew': "Domee Shi (dir.), Rosalie Chiang, Sandra Oh",
+        'imDbRating': "7.1",
+        'imDbRatingCount': "57936"
+    },
+    {
+        'id': "tt15033192",
+        'rank': "6",
+        'rankUpDown': "+21",
+        'title': "Windfall",
+        'fullTitle': "Windfall (2022)",
+        'year': "2022",
+        'image': "https://m.media-amazon.com/images/M/MV5BZjlhNzM4NjItMWRkNi00MWRmLWIzZmEtMmVlNGMwNzU3MmUzXkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_UX128_CR0,3,128,176_AL_.jpg",
+        'crew': "Charlie McDowell (dir.), Jason Segel, Lily Collins",
+        'imDbRating': "5.7",
+        'imDbRatingCount': "11831"
+    },
+    {
+        'id': "tt10872600",
+        'rank': "7",
+        'rankUpDown': "-2",
+        'title': "Spider-Man: No Way Home",
+        'fullTitle': "Spider-Man: No Way Home (2021)",
+        'year': "2021",
+        'image': "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_UX128_CR0,3,128,176_AL_.jpg",
+        'crew': "Jon Watts (dir.), Tom Holland, Zendaya",
+        'imDbRating': "8.5",
+        'imDbRatingCount': "557606"
+    },
+    {
+        'id': "tt6708668",
+        'rank': "8",
+        'rankUpDown': "+16",
+        'title': "Black Crab",
+        'fullTitle': "Black Crab (2022)",
+        'year': "2022",
+        'image': "https://m.media-amazon.com/images/M/MV5BZjMzZmIyNjUtNWE3Zi00NjIyLWIyZTUtYzhmY2NlNWU3NTU3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX128_CR0,3,128,176_AL_.jpg",
+        'crew': "Adam Berg (dir.), Noomi Rapace, Aliette Opheim",
+        'imDbRating': "5.6",
+        'imDbRatingCount': "10702"
+    },
+    {
+        'id': "tt9411972",
+        'rank': "9",
+        'rankUpDown': "+294",
+        'title': "Where the Crawdads Sing",
+        'fullTitle': "Where the Crawdads Sing (2022)",
+        'year': "2022",
+        'image': "https://m.media-amazon.com/images/M/MV5BMTJmNGJmYTgtYjAxNy00YmMzLTk2YTYtMGIzMmUwNDMyMTY1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY176_CR6,0,128,176_AL_.jpg",
+        'crew': "Olivia Newman (dir.), Daisy Edgar-Jones, Harris Dickinson",
+        'imDbRating': "",
+        'imDbRatingCount': "0"
+    }
+]

@@ -1,5 +1,7 @@
 # week4session1
 
+https://app.peardeck.com/student/thtbrqhae
+
 # Setting up and running a Virtual Environment
 
 ## We will use pipenv
